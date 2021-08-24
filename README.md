@@ -1,5 +1,8 @@
 # music
 
+## Udemy Project
+This project was made as part of the [udemy course](https://academy.zerotomastery.io/p/learn-vue-js).
+
 ## Project setup
 ```
 yarn install
