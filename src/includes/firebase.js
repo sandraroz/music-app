@@ -7,13 +7,13 @@ import 'firebase/firestore';
 import 'firebase/storage';
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyB6Shu9bm9rauknLI0W9C-E1vfPVrXJF9g',
-  authDomain: 'music-c7c39.firebaseapp.com',
-  projectId: 'music-c7c39',
-  storageBucket: 'music-c7c39.appspot.com',
-  messagingSenderId: '50213739165',
-  appId: '1:50213739165:web:73600c8058c666ad6ad274',
-  measurementId: 'G-4Q058LZ9HT',
+  apiKey: process.env.VUE_APP_API_KEY,
+  authDomain: process.env.VUE_APP_AUTH_DOMAIN,
+  projectId: process.env.VUE_APP_PROJECT_ID,
+  storageBucket: process.env.VUE_APP_STORAGE_BUCKET,
+  messagingSenderId: process.env.VUE_APP_MESSAGING_SENDER_ID,
+  appId: process.env.VUE_APP_APP_ID,
+  measurementId: process.env.VUE_APP_MEASUREMENT_ID,
 };
 
 // Initialize Firebase
